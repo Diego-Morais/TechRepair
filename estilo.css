@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background:whitesmoke;
+    height: 100vh;
+}
+
+.whatsapp{
+    cursor: pointer;
+    position: fixed;
+    top: 500px;
+    left: 980px;
+}
+
+
+.whatsapp:hover{
+    
+    transform: scale(1.05);
+}
+
+.menu-desktop{
+
+    margin-left: 80px;;
+}
+
+.interface{
+ max-width:1280px;
+ margin: 0 auto;
+
+}
+.flex{
+    display:flex;
+}
+.logo{
+width: 20px;
+}
+
+header{
+    padding: 40px 4%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: rgb(172, 146, 225);
+    text-decoration: none;
+    display: inline-block;
+    transition: .5s;
+}
+
+header a:hover{
+    color:rgb(148, 106, 227);
+    transform: scale(1.05);
+}
+
+header nav ul{
+list-style-type:none;
+}
+header nav ul li{
+    display:inline-block;
+    padding: 0 40px;
+}
+ .btn-contato button{
+    padding: 10px 40px;
+    font-size: 15px;
+    font-weight: 400;
+    background-color:rgb(148, 106, 227) ;
+    border:0;
+    border-radius: 30px;
+    cursor: pointer;
+    color: white;
+}
+.btn-contato button:hover{
+    box-shadow: 0px 0px 8px rgb(89, 0, 255);
+    
+
+}
+
+
+section.topo-do-site{
+    padding: 40px 4%;
+}
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+.topo-do-site h1{
+     font-size: 38px;
+
+}
+.topo-do-site .txt-topo-site p{
+    margin: 20px 0;
+}
+.topo-do-site .img-topo-site img{
+    position: relative;
+    animation: flutuar 2s cubic-bezier(0.51, -0.18, 0.68, 1.07) infinite alternate;
+}
+
+@keyframes flutuar {
+    0%{
+        top:0;
+    }
+    100%{
+        top:20px;
+    }
+}
+
+
+/*Estilo das Especialidades*/
+section.especialidades{
+    padding: 40px 4%;
+
+}
+
+section.especialidades .flex{
+    gap:60px;
+}
+
+h2.titulo{
+    
+    font-size: 38px;
+    text-align: center;
+}
+h2.titulo span{
+    color:rgb(148, 106, 227);
+}
+
+.especialidades .especialidades-box{
+    color:black;
+    padding: 38px;
+    border-radius: 20px;
+    margin-top: 40px;
+    transition: .2s;
+}
+.especialidades .especialidades-box:hover{
+    transform: scale(1.05px);
+    box-shadow: 0 0 20px rgba(148, 106, 227, 0.548);
+
+}
+.especialidades .especialidades-box i{
+    color:rgb(89, 0, 255);
+    padding: 40px;
+}
+
+.especialidades .especialidades-box h3{
+    font-size: 28px;
+    margin: 10px 0;
+}
+
+
+footer {
+    background-color: rgb(89, 0, 255);
+    color: #fff;
+    padding: 20px;
+    
+  }
+
+  footer {
+	background-color:rgb(89, 0, 255);
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
