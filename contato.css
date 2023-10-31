@@ -1,0 +1,53 @@
+    body {
+      background-color: #f7f7f7;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .container {
+      max-width: 600px; /* Aumente a largura máxima aqui */
+      width: 900px; /* Defina a largura como 100% para ocupar todo o espaço disponível */
+      padding: 20px;
+      background-color: #8a2be2; /* Cor de fundo roxa */
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      text-align: center;
+      color: #fff; /* Cor do texto branco */
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+      color: #fff; /* Cor do texto branco */
+    }
+
+    input[type="text"], input[type="tel"], select {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      background-color: #fff; /* Cor de fundo branca */
+    }
+
+    button[type="submit"] {
+      background-color: #007bff;
+      color: #fff;
+      padding: 10px 20px;
+      border: 1px solid #007bff; /* Adicionando borda */
+      border-radius: 3px;
+      cursor: pointer;
+    }
+
+    button[type="submit"]:hover {
+      background-color: #0056b3;
+    }
+  

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:ital,wght@0,100;0,200;0,500;0,800;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+
+    <!--ICONS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!--ICONS-->
+    <title>TechRepair</title>
+    
+    
+    
+  <title>Formulário de Contato</title>
+  <style>
+    body {
+      background-color: #f7f7f7;
+      font-family: Arial, sans-serif;
+      
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      
+    }
+
+    .container {
+        
+      position: absolute;
+      left: 46%;
+      justify-content: center;
+      align-items: center;
+      max-width: 600px; /* Aumente a largura máxima aqui */
+      width: 100%; /* Defina a largura como 100% para ocupar todo o espaço disponível */
+      padding: 20px;
+      background-color: #8a2be2; /* Cor de fundo roxa */
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      text-align: center;
+      color: #fff; /* Cor do texto branco */
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+      color: #fff; /* Cor do texto branco */
+    }
+
+    input[type="text"], input[type="tel"], select {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      background-color: #fff; /* Cor de fundo branca */
+    }
+
+    button[type="submit"] {
+      background-color: #007bff;
+      color: #fff;
+      padding: 10px 20px;
+      border: 1px solid #007bff; /* Adicionando borda */
+      border-radius: 3px;
+      cursor: pointer;
+    }
+
+    button[type="submit"]:hover {
+      background-color: #0056b3;
+    }
+      
+      .map{
+          width: 510px
+      }
+  </style>
+</head>
+<body>
+    
+    
+    
+     <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="#">
+                    <img src="imagens/tech200.png" alt="logoimagem">
+                </a>
+            </div><!--Logo-->
+
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="especialidades.html">Especialidades</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    
+                </ul >
+            </nav><!--Menu-Desktop-->
+
+            <div class="btn-contato">
+                <a href="#">
+                    <button>Contato</button>
+                </a>
+            </div>
+
+        </div> <!--Interface-->
+    </header>
+     
+    
+    
+  <div class="container">
+    <h2>Entre em contato com nós</h2>
+    <form action="https://formsubmit.co/diegousuario2017@gmail.com" method="post">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required>
+      
+      <label for="telefone">Telefone:</label>
+      <input type="tel" id="telefone" name="telefone" required>
+        
+      <label for="telefone">Endereço:</label>
+      <input type="text" id="endereco" name="endereco" required>
+      
+      <label for="servico">Serviço a realizar:</label>
+      <input type="text" id="servico" name="servico" required>
+        
+       <input type="hidden" name="_next" value="https://diegomorais.github.io/TechRepair/thanks.html">
+    </form>
+       
+      <button type="submit">Enviar</button>
+        <i class="bi bi-envelope-fill"></i>
+        
+       
+  </div>
+     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d30943.508677429!2d-41.667788800000004!3d-14.1983744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1696175182936!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+ 
+
+
+
+     
+   
+     
+
+
+
+
+
+
+     <footer>
+      <p>Tech Repair&copy; 2023 - Todos os direitos reservados</p>
+      <nav>
+          <p>Email: TechRepair@gmail.com</p>
+          <p>Contato: 77993435685</p>
+          <ul>
+              
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="especialidades.html">especialidades</a></li>
+              <li><a href="sobre.html">Sobre nós</a></li>
+              <li><a href="contato.html">Contato</a></li>
+          </ul>
+          <a href=""><img src="imagens/instagram.png" width="50px"></a>
+      </nav>
+  </footer>
+
+ 
+</body>
+</html>
